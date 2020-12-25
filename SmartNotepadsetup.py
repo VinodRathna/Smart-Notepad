@@ -37,7 +37,7 @@ setup(
     options={'build_exe': {'include_files': includefiles}, "bdist_msi": bdist_msi_options, },
     executables=[
         Executable(
-            script="SmartNote pad.py",
+            script="SmartNotepad.py",
             base=base,
             icon='icon.ico',
         )
